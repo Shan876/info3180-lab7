@@ -1,3 +1,238 @@
 body {
     padding-top: 5rem;
 }
+.margin-top-30{
+    margin-top: 30px;
+  }
+  
+  .text-align-center{
+    text-align: center;
+  }
+  
+  .padding-right-30px{
+    padding-right: 30px;
+  }
+  
+  .width70{
+    width: 70%;
+  }
+  
+  .white{
+    background-color: white;
+  }
+  
+  .main-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-row{
+    display: flex;
+  }
+  
+  .justify-center{
+    justify-content: center;
+  }
+  
+  .justify-space-around{
+    justify-content: space-around;
+  }
+  
+  .justify-space-between{
+    justify-content: space-between;
+  }
+  
+  .border-bottom{
+    border-bottom: solid 1px;
+  }
+  
+  .border-gray{
+    border: solid 1px #D3D3D3;
+  }
+  
+  .box-shadow{
+    box-shadow: 1px 3px 7px 1px #A9A9A9;
+  }
+  
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .photogram-login-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px 25px 25px 25px;
+    border-radius: 5px;
+    height: 400px;
+  }
+  
+  .login-desc{
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .login-buttons button{
+    width: 45%;
+  }
+  
+  .login-image{
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+  }
+
+  .register-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+  }
+  
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .post-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .posts{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    margin-bottom: 70px;
+  }
+  
+  .post-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .likes{
+    display: flex;;
+  }
+  
+  .likes img{
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 5px;
+  }
+  
+  
+  .post-image img{
+    width: 100%;
+  }
+  
+  .post-head{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+  }
+  
+  .post-profile-picture{
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+  }
+  
+  .post-profile-picture img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+  }
+  
+  .post-username{
+    display: flex;
+  }
+  
+  .post-username a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .post-caption{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: #505050;
+  }
+  
+  .profile-conatiner{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .profile-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .profile-photo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .profile-photo img{
+    width: 100%;
+  }
+  
+  .follow-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+    width: 30%;
+  }
+  
+  .photos-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    padding-top: 30px;
+  
+  }
+  
+  .profile-post-photos{
+    height: 359px;
+    width: 359px;
+  }
+  
+  .profile-post-photos img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+  
+  }
+  
